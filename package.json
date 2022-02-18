@@ -1,14 +1,17 @@
 {
-  "name": "topgun-nodejs",
+  "name": "bookapi",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "jest"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
-  "author": "Vojtěch Šebek",
-  "license": "MIT",
-  "devDependencies": {
-    "jest": "^24.5.0"
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15",
+    "uuid": "^8.3.2"
   }
 }
